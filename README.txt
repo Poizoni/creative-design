@@ -1,11 +1,8 @@
-Creative Design Free Bootstrap 4 landing page Template for personal and commercial use. Designed with ♥️ and creativity by Devcrud.com 
+Sal's Soldiers is a Florida based nonprofit organization providing relief and creating a community network for individuals affected by Multiple Sclerosis (MS).
 
-Product Page: https://wwww.devcrud.com/
+Facebook Page: https://www.facebook.com/salssoldiers/?ref=page_internal
 
 Credits:
-
-    Demo Images:
-        Unsplash:       	(https://www.unsplash.com)
 
     Icons:
 		Themify Icons: 		(https://themify.me/themify-icons)
