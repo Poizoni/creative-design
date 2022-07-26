@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with Creative Design landing page.">
-    <meta name="author" content="Devcrud">
+    <meta name="description" content="Help raise awareness and funding for those struggling with Multiple Sclerosis (MS) in the Tampa Bay Area.">
+    <meta name="author" content="Sals Soldiers">
     <title>Sals Soldiers | Home</title>
 
     <!-- font icons -->
@@ -13,11 +13,8 @@
     <!-- favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
-
-    <!-- Bootstrap + Creative Design main styles -->
-	<link rel="stylesheet" href="assets/css/creative-design.css">
-
-
+    <!-- Bootstrap + main styles -->
+	<link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     
@@ -57,7 +54,7 @@
         <div class="header-content">
             <p>Lorem ipsum dolor sit amet.</p>
             <h6>Sals Soldiers</h6> 
-            <button class="btn btn-outline-light">Attend an event</button> 
+            <button class="btn btn-outline-light" onclick="window.location.href='https://www.facebook.com/salssoldiers/?ref=page_internal';">Attend an event</button> 
         </div>      
     </header><!-- End of Page Header -->    
     
@@ -152,7 +149,7 @@
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content">
                      <iframe width="100%" height="450px" class="border-0" 
-                    src="https://www.instagram.com/tv/BMaWo6PjBhr/">
+                    src="assets/media/video.mp4">
                     </iframe>
                 </div>
             </div>
@@ -228,20 +225,20 @@
             <p class="mb-5">If you have any Questions or need some Help! Please Contact Us!</p>
             
             <!-- Contact form -->
-            <form class="contact-form col-md-11 col-lg-9 mx-auto fcf-form-class" id="fcf-form-id" method="post" action="form.php">
+            <form class="contact-form col-md-11 col-lg-9 mx-auto" id="fcf-form-id" action="https://formspree.io/f/xoqrgzbz" method="POST">
                 <div class="form-row">
-                    <div class="col form-group fcf-input-group">
+                    <div class="col form-group">
                         <input type="text" class="form-control" placeholder="Name" required>
                     </div>
-                    <div class="col form-group fcf-input-group">
+                    <div class="col form-group">
                         <input type="Email" class="form-control fcf-form-control" placeholder="Email" id="Email" name="Email" required>
                     </div>
                 </div>
-                <div class="form-group fcf-form-group">
-                    <textarea name="Message" id="Message" cols="30" rows="5" class="form-control fcf-form-control" placeholder="Your Message" required></textarea>
+                <div class="form-group">
+                    <textarea name="Message" id="Message" cols="30" rows="5" class="form-control" placeholder="Your Message" required></textarea>
                 </div>
-                <div class="form-group fcf-form-group">
-                    <input type="submit" id="fcf-button" class="btn btn-primary btn-block fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block" value="Send Message">
+                <div class="form-group">
+                    <input type="submit"  class="btn btn-primary btn-block" value="Send Message">
                 </div>
             </form>
             <!-- End of Contact form -->         
@@ -263,7 +260,7 @@
                     <li class="list-body">
                         <p>Support those battling #MultipleScerosis <br><br>
                             - WE ARE THEIR ARMY, WE ARE THEIR SOLDIERS -</p>
-                        <a href="#"><strong class="text-primary">Creative</strong> <span class="text-dark">Design</span></a>
+                        <a href="#"><strong class="text-primary">Sals</strong> <span class="text-dark">Soldiers</span></a>
                     </li>
                 </ul>
                 <ul class="list">
@@ -275,14 +272,10 @@
                             <div class="col">
                                 <a href="#">Link 1</a>
                                 <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
-                                <a href="#">Link 4</a>
                             </div>
                             <div class="col">
-                                <a href="#">Link 5</a>
-                                <a href="#">Link 6</a>
-                                <a href="#">Link 7</a>
-                                <a href="#">Link 8</a>
+                                <a href="#">Link 3</a>
+                                <a href="#">Link 4</a>
                             </div>
                         </div>
                     </li>
@@ -320,8 +313,8 @@
     <!-- bootstrap affix -->
     <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-    <!-- Creative Design js -->
-    <script src="assets/js/creative-design.js"></script>
+    <!-- js file -->
+    <script src="assets/js/script.js"></script>
 
 </body>
 </html>
