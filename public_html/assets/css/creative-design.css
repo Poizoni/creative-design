@@ -10776,7 +10776,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #FAD02C !important;
+  color: $primary !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
